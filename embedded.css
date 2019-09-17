@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Georgia);
+
+/* Component properties */
+.a-Body .a-Main div.a-Region-header {
+    background-color: #cfdef0;
+    border-style: none;
+    border-width: 1px;
+    border-color: rgb(170, 170, 170);
+}
+
+.a-Body .a-Main h2.a-Region-title {
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+/* Shared components */
+.a-Body .a-Main span.a-LinksList-label {
+    font-size: 14px;
+}
+
+.a-Body .a-Main label.a-Form-label {
+    font-size: 13px;
+}
+
+.a-Body .a-Main li.apex-rds-item.apex-rds-after a span {
+    font-size: 13px;
+}
+
+.a-Body .a-Main li.apex-rds-item.apex-rds-first.apex-rds-selected.apex-rds-item--hint a span {
+    font-size: 13px;
+}
+
+/* Frame some buttons */
+.apex-page-designer div.a-Region-headerItems--buttons button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #949494;
+}
+
+.apex-page-designer button.a-Button {
+    border-width: 1px;
+    border-style: none;
+    border-color: #949494;
+}
+
+/* Page designer properties */
+
+.apex-page-designer div.a-PropertyEditor-propertyGroup-header {
+    background-color: #cfdef0;
+}
+
+/* Component view */
+#ContentBody div.aRegionHeading {
+    background-color: #e8e8e8;
+}
+
+#ContentBody div.aRegionHeading h1 {
+    font-weight: bold;
+}
+
+#ContentBody tr td a
+,#ContentBody tbody tr td {
+    font-size: 13px;
+}
+
+
+/* Emphasise disabled buttons */
+
+.apex-page-designer div button.a-Button:disabled {
+    color: #d6d6d6;
+}
+
+/* Substitution string width */
+#BB input[id^="SUBSTITUTION_VALUE"]
+,#BB input[id^="SVAL"]{
+    width: 500px;
+}
+
+/* apex 5 */
+input[id^="SUBSTITUTION_STRING"]
+,input[id^="SSTRING"]
+{
+    /*max-width: 300px ;*/
+    text-align: right;
+}
+
+/* Hover designer buttons */
+button.a-Button.a-Button--goToPageButton.a-Button--pillEnd:hover
+,button.a-Button.a-Button--noLabel.a-Button:hover {
+    background-color: #d0e4fa;
+}
+
+/* Search box */
+.a-SearchBox--autoExpand .a-SearchBox-input {
+    width: 170px;
+    background-color: #ffffff;
+}
+
+/* Success window */
+#pdNotification {left: 40px;}
+
+/* Make locked pages stand out more in page list */
+#apex_pages_irr span.a-Icon.icon-lock {
+    color: #ff0000;
+}
+/* Widen 5.1 scrollbars */
+.u-ScrollingViewport::-webkit-scrollbar{
+    width: 13px ;
+}
+
+/* Hide those darn tooltips 
+   18.x undo now comes under this, but I can't specify just the PD tooltips
+#a_PageDesigner .ui-tooltip {display:none;}]
+*/
