@@ -1,0 +1,54 @@
+/* Dark mode */
+
+.a-Region-header {
+    background: #2a3c5f;
+}
+
+/* Page designer properties */
+
+.apex-page-designer div.a-PropertyEditor-propertyGroup-header {
+    background-color: #232529;
+}
+
+/* substitution string alignment */
+
+input[id^="SUBSTITUTION_STRING"] ,input[id^="SSTRING"] {
+    text-align: right;
+}
+
+/* Move Success window away from panel of buttons on top right */
+
+#pdNotification {
+    left: 40px;
+}
+
+/* Shared component menu text size */
+
+.a-Body .a-Main span.a-LinksList-label {
+    font-size: 14px;
+}
+
+.a-Body .a-Main label.a-Form-label {
+    font-size: 13px;
+}
+
+.a-Body .a-Main li.apex-rds-item.apex-rds-after a span {
+    font-size: 13px;
+}
+
+.a-Body .a-Main li.apex-rds-item.apex-rds-first.apex-rds-selected.apex-rds-item--hint a span {
+    font-size: 13px;
+}
+
+/* Make search box slightly bigger target */
+
+.a-SearchBox-input {
+    width: 100px;
+}
+
+/* Widen scrollbars */
+
+.u-ScrollingViewport::-webkit-scrollbar {
+    width: 13px ;
+}
+
