@@ -5,7 +5,7 @@
 }
 
 /* Page designer properties */
-
+/* can't decide between bluish or a different shade of black */
 .apex-page-designer div.a-PropertyEditor-propertyGroup-header {
     background-color: #232529;
 }
@@ -40,10 +40,22 @@ input[id^="SUBSTITUTION_STRING"] ,input[id^="SSTRING"] {
     font-size: 13px;
 }
 
+/* Add a little background colour to property attributes */
+
+.a-Property-field.a-Property-field--text {
+    background-color: #3c3c3c;
+}
+
 /* Make search box slightly bigger target */
 
 .a-SearchBox-input {
     width: 100px;
+}
+
+/* Make delta for multi-selection more blue */
+
+.a-Icon.icon-variable {
+    color: #4a6e90;
 }
 
 /* Widen scrollbars */
