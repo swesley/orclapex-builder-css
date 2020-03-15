@@ -77,7 +77,7 @@
     width: 500px;
 }
 
-/* apex 5 */
+/* apex 5 added more fields */
 input[id^="SUBSTITUTION_STRING"]
 ,input[id^="SSTRING"]
 {
@@ -104,12 +104,12 @@ button.a-Button.a-Button--goToPageButton.a-Button--pillEnd:hover
 #apex_pages_irr span.a-Icon.icon-lock {
     color: #ff0000;
 }
-/* Widen 5.1 scrollbars */
+/* Widen page designer scrollbars */
 .u-ScrollingViewport::-webkit-scrollbar{
     width: 13px ;
 }
 
-/* Hide those darn tooltips 
+/* Hide those darn tooltips
    18.x undo now comes under this, but I can't specify just the PD tooltips
 #a_PageDesigner .ui-tooltip {display:none;}]
 */
