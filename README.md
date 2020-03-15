@@ -1,6 +1,8 @@
 # orclapex-builder-css
 The application builder introduced in APEX 5.x is fantastic, but I found it a little washed out. I restored some of the 4.x colours to help distinguish page regions, plus a few other tweaks, such as moving the success message so it no longer covers key buttons.
 
+![alt text](https://github.com/swesley/orclapex-builder-css/raw/master/apex-contrast-example.png "Example contrast differences")
+
 Detail for use described on this [blog post](http://www.grassroots-oracle.com/2015/08/apex-5-colour-contrast.html). I use a browser extension to apply the attached CSS to selected websites (where APEX lives).
 
 ## Usage
