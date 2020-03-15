@@ -3,7 +3,7 @@ The application builder introduced in APEX 5.x is fantastic, but I found it a li
 
 ![alt text](https://github.com/swesley/orclapex-builder-css/raw/master/apex-contrast-example.png "Example contrast differences")
 
-Detail for use described on this [blog post](http://www.grassroots-oracle.com/2015/08/apex-5-colour-contrast.html). I use a browser extension to apply the attached CSS to selected websites (where APEX lives).
+Detail for use described on this [blog post](http://www.grassroots-oracle.com/2015/08/apex-5-colour-contrast.html). I use a browser extension to apply the attached CSS to selected websites (where APEX lives). Here is [video accompaniment](https://youtu.be/h4ijJb4kAMA).
 
 ## Usage
 1) Install an browser extension such as Stylebot. Adblockers often has a place for site-specific CSS
