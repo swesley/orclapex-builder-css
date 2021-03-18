@@ -2,7 +2,7 @@
 
 /* Component properties */
 .a-Body .a-Main div.a-Region-header {
-    background-color: rgba(180, 216, 165, 0.5411764705882353);
+    background-color: rgba(180, 216, 165, 0.5411764705882353) !important;
     border-style: none;
     border-width: 1px;
     border-color: rgb(170, 170, 170);
@@ -117,7 +117,7 @@ button.a-Button.a-Button--goToPageButton.a-Button--pillEnd:hover
 }
 
 /* Success window */
-#pdNotification {left: 40px;}
+#pdNotification {right: 300px;}
 
 /* Make locked pages stand out more in page list */
 #apex_pages_irr span.a-Icon.icon-lock {
